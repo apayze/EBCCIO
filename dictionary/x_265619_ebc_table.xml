@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="EBC Table" max_length="40" name="x_265619_ebc_table" type="collection"/>
+    <element label="EBC Table" max_length="40" name="x_265619_ebc_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_classification" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_ebc_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fiscal Fund Year" max_length="40" name="u_fiscalyear" type="string">
+            <choice>
+                <element inactive_on_update="false" label="FY19" sequence="0" value="fy19"/>
+                <element inactive_on_update="false" label="FY20" sequence="1" value="fy20"/>
+                <element inactive_on_update="false" label="FY21" sequence="2" value="fy21"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+    </element>
 </database>

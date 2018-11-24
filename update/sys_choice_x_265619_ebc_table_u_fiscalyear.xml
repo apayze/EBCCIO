@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_fiscalyear" table="x_265619_ebc_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fiscalyear</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FY19</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-24 18:11:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afd2c8a0dbce23007fd9da75ca9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-24 18:11:13</sys_updated_on>
+            <value>fy19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fiscalyear</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FY20</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-24 18:11:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23d2c8a0dbce23007fd9da75ca9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-24 18:11:13</sys_updated_on>
+            <value>fy20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fiscalyear</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FY21</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-24 18:11:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afd2c8a0dbce23007fd9da75ca9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-24 18:11:13</sys_updated_on>
+            <value>fy21</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_fiscalyear</element>
+            <name>x_265619_ebc_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-24 18:11:13</sys_created_on>
+            <sys_id>2bd2c8a0dbce23007fd9da75ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_fiscalyear</sys_name>
+            <sys_package display_value="EBC" source="x_265619_ebc">bb6d1ec8db4223007fd9da75ca9619ad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EBC">bb6d1ec8db4223007fd9da75ca9619ad</sys_scope>
+            <sys_update_name>sys_choice_x_265619_ebc_table_u_fiscalyear</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-24 18:11:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
