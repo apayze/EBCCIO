@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Funding Requests" max_length="40" name="x_265619_ebc_funding_requests" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="EBC" max_length="32" name="u_ebc" reference="x_265619_ebc_table" type="reference"/>
+        <element attributes="omit_sys_original=true" label="FY01 Funding Amount" max_length="20" name="u_fy01" type="currency"/>
+        <index name="index">
+            <element name="u_ebc"/>
+        </index>
+    </element>
+</database>
