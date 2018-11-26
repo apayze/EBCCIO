@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Funding Requests" max_length="40" name="x_265619_ebc_funding_requests" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#13;&#10;&#9;return 'getvalue(current.u_fy01)';  // return the calculated value&#13;&#10;&#9;&#13;&#10;&#9;&#9;// return 'current.u_fy01+current.u_fy02+current.u_fy03+current.u_fy04+current.u_fy05';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Funding Request" max_length="20" name="total_funding_request" type="currency"/>
         <element label="EBC" max_length="32" name="u_ebc" reference="x_265619_ebc_table" type="reference"/>
         <element attributes="omit_sys_original=true" default="0" label="FY01 Funding Amount" max_length="20" name="u_fy01" type="currency"/>
         <element attributes="omit_sys_original=true" label="FY02 Funding Amount" max_length="20" name="u_fy02" type="currency"/>
