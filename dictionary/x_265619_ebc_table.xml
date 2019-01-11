@@ -17,7 +17,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_ebc_title" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Expected Improvement" max_length="40" name="u_expected_improvement" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Expected Improvement" max_length="40" name="u_expected_improvement" type="string">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
@@ -33,7 +33,7 @@
                 <element inactive_on_update="false" label="FY21" sequence="2" value="fy21"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact if Not Funded" max_length="40" name="u_impact_not_funded" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Impact if Not Funded" max_length="40" name="u_impact_not_funded" type="string">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
@@ -42,7 +42,7 @@
                 <element inactive_on_update="false" label="5" sequence="4" value="5"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Mission Criticality" max_length="40" name="u_mission_criticality" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Mission Criticality" max_length="40" name="u_mission_criticality" type="string">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
@@ -58,7 +58,7 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Strategic Alignment" max_length="40" name="u_strategic_alignment" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Strategic Alignment" max_length="40" name="u_strategic_alignment" type="string">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
@@ -67,7 +67,7 @@
                 <element inactive_on_update="false" label="5" sequence="4" value="5"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Technical Risk" max_length="40" name="u_technical_risk" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Technical Risk" max_length="40" name="u_technical_risk" type="string">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>

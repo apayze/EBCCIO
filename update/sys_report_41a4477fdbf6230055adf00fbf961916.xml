@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>SUM</aggregate>
+        <aggregate>COUNT</aggregate>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
@@ -28,7 +28,7 @@
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
-        <decimal_precision>0</decimal_precision>
+        <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
@@ -37,7 +37,7 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>u_ebc.coi</field>
+        <field>coi</field>
         <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
         <filter/>
         <from/>
@@ -80,7 +80,7 @@
         <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
-        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_data_label_position_middle>true</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
@@ -89,25 +89,25 @@
         <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
-        <sumfield>total_funding_request</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-11 13:43:08</sys_created_on>
-        <sys_id>e0d1d6bfdb76230055adf00fbf9619cf</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>EBC Total Funding</sys_name>
+        <sys_created_on>2019-01-11 17:25:10</sys_created_on>
+        <sys_id>41a4477fdbf6230055adf00fbf961916</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>EBC by COIs</sys_name>
         <sys_package display_value="EBC" source="x_265619_ebc">bb6d1ec8db4223007fd9da75ca9619ad</sys_package>
         <sys_policy/>
         <sys_scope display_value="EBC">bb6d1ec8db4223007fd9da75ca9619ad</sys_scope>
-        <sys_update_name>sys_report_e0d1d6bfdb76230055adf00fbf9619cf</sys_update_name>
+        <sys_update_name>sys_report_41a4477fdbf6230055adf00fbf961916</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-11 17:54:47</sys_updated_on>
-        <table>x_265619_ebc_funding_requests</table>
-        <title>EBC Total Funding</title>
+        <sys_updated_on>2019-01-11 18:04:06</sys_updated_on>
+        <table>x_265619_ebc_table</table>
+        <title>EBC by COIs</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field/>
+        <trend_field>u_state</trend_field>
         <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
@@ -134,7 +134,7 @@
         <y_axis_label_color/>
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_opposite>false</y_axis_opposite>
-        <y_axis_title>$ Total Funding</y_axis_title>
+        <y_axis_title># EBCs</y_axis_title>
         <y_axis_title_bold>true</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>

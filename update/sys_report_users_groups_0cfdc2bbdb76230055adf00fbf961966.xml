@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="EBC By COI">04fdc2bbdb76230055adf00fbf961966</report_id>
+        <report_id display_value="EBC by State">04fdc2bbdb76230055adf00fbf961966</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-11 13:26:10</sys_created_on>
