@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="EBC Table" max_length="40" name="x_265619_ebc_table" type="collection">
+    <element label="EBC" max_length="40" name="x_265619_ebc_table" type="collection">
+        <element choice="1" label="COI" max_length="40" name="coi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Analysis (DI) COI" value="Analysis (DI) COI"/>
+                <element inactive_on_update="false" label="Business (BES) COI" value="Business (BES) COI"/>
+                <element inactive_on_update="false" label="IT Services COI" value="IT Services COI"/>
+                <element inactive_on_update="false" label="JIOC COI" value="JIOC COI"/>
+                <element inactive_on_update="false" label="Operations (DO) COI" value="Operations (DO) COI"/>
+                <element inactive_on_update="false" label="Science &amp; Technology (S&amp;T) COI" value="Science &amp; Technology (S&amp;T) COI"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var a = parseInt(g_form.getValue('u_expected_improvement'));&#13;&#10;var b = parseInt(g_form.getValue('u_impact_not_funded'));&#13;&#10;var e = a+b;&#13;&#10;&#13;&#10;&#9;return e;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Rating" max_length="40" name="total_rating" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_classification" type="string">
             <choice/>
         </element>

@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_265619_ebc_table" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="EBC Table - Default view" name="x_265619_ebc_table" related_list="NULL" sys_domain="global" view="Default view">71d414acdbce23007fd9da75ca961910</list_id>
+            <list_id display_value="EBC - Default view" name="x_265619_ebc_table" related_list="NULL" sys_domain="global" view="Default view">71d414acdbce23007fd9da75ca961910</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:6d0e44a8dbce23007fd9da75ca9619d2</related_list>
@@ -15,7 +15,7 @@
             <sys_updated_on>2018-11-24 19:29:44</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>EBC Table - Default view</calculated_name>
+            <calculated_name>EBC - Default view</calculated_name>
             <filter/>
             <name>x_265619_ebc_table</name>
             <order_by/>

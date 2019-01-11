@@ -5,7 +5,7 @@
         <basic_apply_to>x_265619_ebc_table</basic_apply_to>
         <basic_query_from>x_265619_ebc_funding_requests</basic_query_from>
         <insert_callback/>
-        <name>EBC_Funding</name>
+        <name>EBC Funding</name>
         <query_from/>
         <query_with><![CDATA[current.addQuery('u_ebc', parent.sys_id);]]></query_with>
         <reference_field>u_ebc</reference_field>
@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-24 19:07:10</sys_created_on>
         <sys_id>6d0e44a8dbce23007fd9da75ca9619d2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>EBC_Funding</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>EBC Funding</sys_name>
         <sys_package display_value="EBC" source="x_265619_ebc">bb6d1ec8db4223007fd9da75ca9619ad</sys_package>
         <sys_policy/>
         <sys_scope display_value="EBC">bb6d1ec8db4223007fd9da75ca9619ad</sys_scope>
         <sys_update_name>sys_relationship_6d0e44a8dbce23007fd9da75ca9619d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-24 19:27:19</sys_updated_on>
+        <sys_updated_on>2019-01-11 14:16:38</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=6d0e44a8dbce23007fd9da75ca9619d2"/>
 </record_update>

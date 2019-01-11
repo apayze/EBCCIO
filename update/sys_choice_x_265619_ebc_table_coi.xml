@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="coi" table="x_265619_ebc_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analysis (DI) COI</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:09:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7e98ab7db76230055adf00fbf961960</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:21:40</sys_updated_on>
+            <value>Analysis (DI) COI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business (BES) COI</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:09:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1a86f7db76230055adf00fbf96195e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:21:59</sys_updated_on>
+            <value>Business (BES) COI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT Services COI</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c05c8a7bdb76230055adf00fbf9619c9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:22:34</sys_updated_on>
+            <value>IT Services COI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JIOC COI</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:19:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>752c8a7bdb76230055adf00fbf9619c8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:22:17</sys_updated_on>
+            <value>JIOC COI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operations (DO) COI</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>221d4ab7db76230055adf00fbf9619da</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:22:51</sys_updated_on>
+            <value>Operations (DO) COI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>coi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Science &amp; Technology (S&amp;T) COI</label>
+            <language>en</language>
+            <name>x_265619_ebc_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>662d42bbdb76230055adf00fbf9619fc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:23:15</sys_updated_on>
+            <value>Science &amp; Technology (S&amp;T) COI</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>coi</element>
+            <name>x_265619_ebc_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 13:09:22</sys_created_on>
+            <sys_id>c21a8ab7db76230055adf00fbf961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>coi</sys_name>
+            <sys_package display_value="EBC" source="x_265619_ebc">bb6d1ec8db4223007fd9da75ca9619ad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EBC">bb6d1ec8db4223007fd9da75ca9619ad</sys_scope>
+            <sys_update_name>sys_choice_x_265619_ebc_table_coi</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 13:09:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
