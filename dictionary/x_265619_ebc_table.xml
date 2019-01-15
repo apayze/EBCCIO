@@ -10,7 +10,10 @@
                 <element inactive_on_update="false" label="Science &amp; Technology (S&amp;T) COI" value="Science &amp; Technology (S&amp;T) COI"/>
             </choice>
         </element>
+        <element label="Main Capability Addressed" max_length="1000" name="main_capability_addressed" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Secondary Capability Addressed" max_length="1000" name="secondary_capability_addressed" type="string"/>
+        <element label="Tertiary Capability Addressed" max_length="1000" name="tertiary_capability_addressed" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var a = parseInt(g_form.getValue('u_expected_improvement'));&#13;&#10;var b = parseInt(g_form.getValue('u_impact_not_funded'));&#13;&#10;var e = a+b;&#13;&#10;&#13;&#10;&#9;return e;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Rating" max_length="40" name="total_rating" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_classification" type="string">
             <choice/>

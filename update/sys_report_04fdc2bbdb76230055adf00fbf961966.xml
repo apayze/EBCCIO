@@ -19,7 +19,7 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
+        <color_palette display_value="Blues dark to light (3)">467fc319d7100200b96d45a3ce610342</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>
@@ -80,7 +80,7 @@
         <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
-        <show_data_label_position_middle>true</show_data_label_position_middle>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
@@ -94,14 +94,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-11 13:26:11</sys_created_on>
         <sys_id>04fdc2bbdb76230055adf00fbf961966</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>EBC by State</sys_name>
         <sys_package display_value="EBC" source="x_265619_ebc">bb6d1ec8db4223007fd9da75ca9619ad</sys_package>
         <sys_policy/>
         <sys_scope display_value="EBC">bb6d1ec8db4223007fd9da75ca9619ad</sys_scope>
         <sys_update_name>sys_report_04fdc2bbdb76230055adf00fbf961966</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-11 18:04:30</sys_updated_on>
+        <sys_updated_on>2019-01-15 13:51:16</sys_updated_on>
         <table>x_265619_ebc_table</table>
         <title>EBC by State</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
@@ -119,12 +119,12 @@
         <x_axis_grid_width>1</x_axis_grid_width>
         <x_axis_label_bold>true</x_axis_label_bold>
         <x_axis_label_color/>
-        <x_axis_label_size>11</x_axis_label_size>
+        <x_axis_label_size>14</x_axis_label_size>
         <x_axis_opposite>false</x_axis_opposite>
         <x_axis_title>COI</x_axis_title>
         <x_axis_title_bold>true</x_axis_title_bold>
         <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
-        <x_axis_title_size>12</x_axis_title_size>
+        <x_axis_title_size>15</x_axis_title_size>
         <y_axis_display_grid>true</y_axis_display_grid>
         <y_axis_from/>
         <y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
@@ -132,12 +132,12 @@
         <y_axis_grid_width>1</y_axis_grid_width>
         <y_axis_label_bold>true</y_axis_label_bold>
         <y_axis_label_color/>
-        <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_label_size>15</y_axis_label_size>
         <y_axis_opposite>false</y_axis_opposite>
         <y_axis_title># EBCs</y_axis_title>
         <y_axis_title_bold>true</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
-        <y_axis_title_size>12</y_axis_title_size>
+        <y_axis_title_size>17</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
 </record_update>
